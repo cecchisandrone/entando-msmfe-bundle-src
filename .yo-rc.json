@@ -1,0 +1,56 @@
+{
+  "generator-jhipster": {
+    "blueprints": [
+      {
+        "name": "generator-jhipster-entando",
+        "version": "7.0.0"
+      }
+    ],
+    "otherModules": [
+      {
+        "name": "generator-jhipster-entando",
+        "version": "7.0.0"
+      }
+    ],
+    "applicationType": "microservice",
+    "baseName": "msmfebundle",
+    "jhipsterVersion": "7.2.0",
+    "skipClient": true,
+    "withAdminUi": false,
+    "skipUserManagement": true,
+    "skipServer": false,
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "testFrameworks": [],
+    "pages": [],
+    "creationTimestamp": 1648828213624,
+    "serviceDiscoveryType": false,
+    "reactive": false,
+    "authenticationType": "oauth2",
+    "packageName": "com.mycompany.myapp",
+    "serverPort": "8081",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "buildTool": "maven",
+    "serverSideOptions": [],
+    "websocket": false,
+    "searchEngine": false,
+    "messageBroker": false,
+    "enableSwaggerCodegen": false,
+    "microserviceDependencies": "entando",
+    "bundleName": "msmfe-bundle",
+    "dockerImageOrganization": "cecchisandrone",
+    "generateMicroFrontends": "always",
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "jwtSecretKey": "NmVhN2NhZDI1MmRjYTE1MTY3YzdjMjA5MmQxYzAzNDFmNDkwYjhjNWNkZDZjYTc0NTUxZmVkNzEzNzI3ODE2M2NmMjMzZWVhN2EyY2FiMDU0YWEwMWI5ZDg5MWU2NGVlY2JjZjVmZTM0NGRkNWFhYTEyNTYyYjcwZGFmZTU0MjM=",
+    "languages": ["en"],
+    "enableGradleEnterprise": false
+  }
+}
