@@ -1,0 +1,23 @@
+{
+  "microserviceName": "msmfebundle",
+  "clientRootFolder": "msmfebundle",
+  "databaseType": "sql",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "location",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "name": "Conference",
+  "changelogDate": "20220401155619"
+}
